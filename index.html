@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colección Micro Machines</title>
+    <meta name="description" content="Organiza tu colección de Micro Machines">
+    <meta name="author" content="Marcos Navarro">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/logo.png">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Toastify CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    
+    <!-- SweetAlert2 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-primary text-white py-4">
+        <div class="container text-center">
+            <img src="images/logo.png" alt="Logo" class="logo-header mb-3">
+            <h1>Colección Micro Machines</h1>
+            <p class="mb-0">Organizá tu colección personal</p>
+        </div>
+    </header>
+
+    <!-- Navegación -->
+    <nav class="navbar navbar-light bg-light">
+        <div class="container">
+            <div class="d-flex gap-2 mx-auto">
+                <button class="btn btn-primary btn-nav active" id="btnCatalogo">Todos</button>
+                <button class="btn btn-outline-danger btn-nav" id="btnFavoritos">
+                    Favoritos (<span id="badgeFavoritos">0</span>)
+                </button>
+                <button class="btn btn-outline-warning btn-nav" id="btnDeseados">
+                    Deseados (<span id="badgeDeseados">0</span>)
+                </button>
+                <button class="btn btn-outline-success btn-nav" id="btnColeccion">
+                    Los tengo (<span id="badgeColeccion">0</span>)
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenido principal -->
+    <main class="container my-5">
+        
+        <!-- Sección de filtros -->
+        <section class="mb-4" id="seccionFiltros">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label for="filtroFabricante" class="form-label">Filtrar por Fabricante</label>
+                            <select class="form-select" id="filtroFabricante">
+                                <option value="todos">Todos</option>
+                                <option value="Galoob">Galoob</option>
+                                <option value="Hasbro">Hasbro</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="filtroSerie" class="form-label">Filtrar por Serie</label>
+                            <select class="form-select" id="filtroSerie">
+                                <option value="todos">Todas</option>
+                                <option value="Sports Cars">Sports Cars</option>
+                                <option value="Off Road">Off Road</option>
+                                <option value="Monster Trucks">Monster Trucks</option>
+                                <option value="Formula 1">Formula 1</option>
+                                <option value="Drag Racing">Drag Racing</option>
+                                <option value="Classic Collection">Classic Collection</option>
+                                <option value="Concept Cars">Concept Cars</option>
+                                <option value="Hot Rods">Hot Rods</option>
+                                <option value="NASCAR">NASCAR</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Estadísticas/progreso de mis listados -->
+        <section class="mb-4" id="seccionEstadisticas">
+            <div class="alert alert-info d-flex justify-content-between align-items-center">
+                <div>
+                    <strong>Total:</strong> 
+                    <span id="totalFavoritos">0</span> favoritos, 
+                    <span id="totalDeseados">0</span> deseados, 
+                    <span id="totalColeccion">0</span> en tu colección
+                </div>
+                <button class="btn btn-sm btn-outline-danger" id="btnLimpiarTodo">
+                    Limpiar Todo
+                </button>
+            </div>
+        </section>
+
+        <!-- Título de la sección, dinamico con JS =D -->
+        <h2 id="tituloSeccion" class="text-center">Todos los Micro Machines</h2>
+        <hr>
+
+        <!-- Contenedor de productos, dinamico con JS =D  -->
+        <section id="contenedorProductos" class="row g-4">
+            <!-- Acá voy a meter los autos -->
+        </section>
+
+        <!-- Mensaje cuando no hay productos -->
+        <div id="mensajeVacio" class="alert alert-secondary text-center d-none">
+            <p class="mb-0">Uh que bajón! No hay ningún Micro Machines para mostrar</p>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-3 mt-5">
+        <div class="container text-center">
+            <p class="mb-0">© 2025 Marcos Navarro - Organizá tu colección personal de Micro Machines - De un fan, para fans</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Toastify JS - Usando librerias sugeridas por el profee -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    
+    <!-- SweetAlert2 JS - Usando librerias sugeridas por el profee -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+    <!-- JavaScripts del proyecto -->
+    <script defer src="js/productos.js"></script>
+    <script defer src="js/main.js"></script>
+</body>
+</html>
+

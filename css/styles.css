@@ -1,0 +1,67 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #0d6efd;
+}
+
+.logo-header {
+    width: 320px;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+
+.btn-nav {
+    transition: all 0.2s;
+}
+
+.btn-nav:hover {
+    transform: translateY(-1px);
+}
+
+.card-producto {
+    transition: all 0.3s;
+    border: 1px solid #dee2e6;
+    height: 100%;
+}
+
+.card-producto:hover {
+    transform: translateY(-3px); /* Efecto hover para las cards, lo movemos un poquito para arriba nomás */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card-producto img {
+    width: 100%;
+    object-fit: contain;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.en-favoritos {
+    border-color: #dc3545 !important;
+    background-color: #fff5f5;
+}
+
+.en-deseados {
+    border-color: #ffc107 !important;
+    background-color: #fffbf0;
+}
+
+.en-coleccion {
+    border-color: #198754 !important;
+    background-color: #f0fdf4;
+}
+
+@media (max-width: 768px) {
+    .btn-nav {
+        font-size: 0.9rem;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.4s;
+}

@@ -1,0 +1,362 @@
+[
+    {
+        "id": 1,
+        "nombre": "Formula 1 #31",
+        "serie": "Formula 1",
+        "fabricante": "Galoob",
+        "año": 1992,
+        "rareza": "Raro",
+        "imagen": "images/microMachines/1-Photoroom.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Van Negra Custom",
+        "serie": "Custom Vans",
+        "fabricante": "Galoob",
+        "año": 1990,
+        "rareza": "Muy Raro",
+        "imagen": "images/microMachines/2-Photoroom.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Sports Car Amarillo Mind",
+        "serie": "Sports Cars",
+        "fabricante": "Galoob",
+        "año": 1989,
+        "rareza": "Común",
+        "imagen": "images/microMachines/3-Photoroom.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Chevy 57 Pickup #6",
+        "serie": "Off Road",
+        "fabricante": "Galoob",
+        "año": 1991,
+        "rareza": "Raro",
+        "imagen": "images/microMachines/4-Photoroom.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Porsche Amarillo",
+        "serie": "Sports Cars",
+        "fabricante": "Galoob",
+        "año": 1990,
+        "rareza": "Muy Raro",
+        "imagen": "images/microMachines/5-Photoroom.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "VW Beetle Blanco",
+        "serie": "Classic Collection",
+        "fabricante": "Galoob",
+        "año": 1988,
+        "rareza": "Común",
+        "imagen": "images/microMachines/6-Photoroom.jpg"
+    },
+    {
+        "id": 7,
+        "nombre": "Le Mans Racer #8",
+        "serie": "Le Mans",
+        "fabricante": "Galoob",
+        "año": 1993,
+        "rareza": "Ultra Raro",
+        "imagen": "images/microMachines/7-Photoroom.jpg"
+    },
+    {
+        "id": 8,
+        "nombre": "Roadster IROC-Z Azul",
+        "serie": "Sports Cars",
+        "fabricante": "Galoob",
+        "año": 1991,
+        "rareza": "Raro",
+        "imagen": "images/microMachines/8-Photoroom.jpg"
+    },
+    {
+        "id": 9,
+        "nombre": "Convertible Rojo",
+        "serie": "Sports Cars",
+        "fabricante": "Galoob",
+        "año": 1989,
+        "rareza": "Común",
+        "imagen": "images/microMachines/9-Photoroom.jpg"
+    },
+    {
+        "id": 10,
+        "nombre": "Roadster Azul Concept",
+        "serie": "Concept Cars",
+        "fabricante": "Galoob",
+        "año": 1994,
+        "rareza": "Ultra Raro",
+        "imagen": "images/microMachines/10-Photoroom.jpg"
+    },
+    {
+        "id": 11,
+        "nombre": "Roadster Plateado Classic",
+        "serie": "Classic Collection",
+        "fabricante": "Galoob",
+        "año": 1988,
+        "rareza": "Raro",
+        "imagen": "images/microMachines/11-Photoroom.jpg"
+    },
+    {
+        "id": 12,
+        "nombre": "Monster Truck Phantom Rosa",
+        "serie": "Monster Trucks",
+        "fabricante": "Galoob",
+        "año": 1992,
+        "rareza": "Muy Raro",
+        "imagen": "images/microMachines/12-Photoroom.jpg"
+    },
+    {
+        "id": 13,
+        "nombre": "4x4 Off Road Amarillo",
+        "serie": "Off Road",
+        "fabricante": "Galoob",
+        "año": 1990,
+        "rareza": "Común",
+        "imagen": "images/microMachines/13-Photoroom.jpg"
+    },
+    {
+        "id": 14,
+        "nombre": "Funny Car Goodyear #5",
+        "serie": "Drag Racing",
+        "fabricante": "Galoob",
+        "año": 1993,
+        "rareza": "Ultra Raro",
+        "imagen": "images/microMachines/14-Photoroom.jpg"
+    },
+    {
+        "id": 15,
+        "nombre": "Monster Truck Tiger Naranja",
+        "serie": "Monster Trucks",
+        "fabricante": "Galoob",
+        "año": 1991,
+        "rareza": "Muy Raro",
+        "imagen": "images/microMachines/15-Photoroom.jpg"
+    },
+    {
+        "id": 16,
+        "nombre": "Formula 1 Stinger",
+        "serie": "Formula 1",
+        "fabricante": "Galoob",
+        "año": 1993,
+        "rareza": "Raro",
+        "imagen": "images/microMachines/16-Photoroom.jpg"
+    },
+    {
+        "id": 17,
+        "nombre": "SUV 4x4 Morado Glitter",
+        "serie": "Sparkle Series",
+        "fabricante": "Galoob",
+        "año": 1994,
+        "rareza": "Muy Raro",
+        "imagen": "images/microMachines/17-Photoroom.jpg"
+    },
+    {
+        "id": 18,
+        "nombre": "Formula 1 #77",
+        "serie": "Formula 1",
+        "fabricante": "Galoob",
+        "año": 1992,
+        "rareza": "Raro",
+        "imagen": "images/microMachines/18-Photoroom.jpg"
+    },
+    {
+        "id": 19,
+        "nombre": "Concept Car Plateado",
+        "serie": "Concept Cars",
+        "fabricante": "Galoob",
+        "año": 1995,
+        "rareza": "Ultra Raro",
+        "imagen": "images/microMachines/19-Photoroom.jpg"
+    },
+    {
+        "id": 20,
+        "nombre": "Formula Dragster Naranja",
+        "serie": "Drag Racing",
+        "fabricante": "Galoob",
+        "año": 1992,
+        "rareza": "Muy Raro",
+        "imagen": "images/microMachines/20-Photoroom.jpg"
+    },
+    {
+        "id": 21,
+        "nombre": "SUV Negro Techo Azul",
+        "serie": "Off Road",
+        "fabricante": "Galoob",
+        "año": 1991,
+        "rareza": "Común",
+        "imagen": "images/microMachines/21-Photoroom.jpg"
+    },
+    {
+        "id": 22,
+        "nombre": "Hummer 4x4 #97",
+        "serie": "Off Road",
+        "fabricante": "Hasbro",
+        "año": 2000,
+        "rareza": "Raro",
+        "imagen": "images/microMachines/22-Photoroom.jpg"
+    },
+    {
+        "id": 23,
+        "nombre": "Roadster Descapotable Rojo",
+        "serie": "Sports Cars",
+        "fabricante": "Galoob",
+        "año": 1990,
+        "rareza": "Común",
+        "imagen": "images/microMachines/23-Photoroom.jpg"
+    },
+    {
+        "id": 24,
+        "nombre": "Dune Buggy #97 Azul",
+        "serie": "Off Road",
+        "fabricante": "Galoob",
+        "año": 1992,
+        "rareza": "Raro",
+        "imagen": "images/microMachines/24-Photoroom.jpg"
+    },
+    {
+        "id": 25,
+        "nombre": "Formula 1 #88 Amarillo",
+        "serie": "Formula 1",
+        "fabricante": "Galoob",
+        "año": 1993,
+        "rareza": "Raro",
+        "imagen": "images/microMachines/25-Photoroom.jpg"
+    },
+    {
+        "id": 26,
+        "nombre": "Racing Buggy #20",
+        "serie": "Off Road",
+        "fabricante": "Galoob",
+        "año": 1991,
+        "rareza": "Común",
+        "imagen": "images/microMachines/26-Photoroom.jpg"
+    },
+    {
+        "id": 27,
+        "nombre": "Monster 4x4 #9 Arcoiris",
+        "serie": "Monster Trucks",
+        "fabricante": "Galoob",
+        "año": 1992,
+        "rareza": "Muy Raro",
+        "imagen": "images/microMachines/27-Photoroom.jpg"
+    },
+    {
+        "id": 28,
+        "nombre": "Camaro Naranja",
+        "serie": "Sports Cars",
+        "fabricante": "Galoob",
+        "año": 1988,
+        "rareza": "Raro",
+        "imagen": "images/microMachines/28-Photoroom.jpg"
+    },
+    {
+        "id": 29,
+        "nombre": "Corvette Clasico Rojo",
+        "serie": "Classic Collection",
+        "fabricante": "Galoob",
+        "año": 1987,
+        "rareza": "Ultra Raro",
+        "imagen": "images/microMachines/29-Photoroom.jpg"
+    },
+    {
+        "id": 30,
+        "nombre": "Hot Rod Coupe Amarillo",
+        "serie": "Hot Rods",
+        "fabricante": "Galoob",
+        "año": 1990,
+        "rareza": "Raro",
+        "imagen": "images/microMachines/30-Photoroom.jpg"
+    },
+    {
+        "id": 31,
+        "nombre": "Convertible Plateado",
+        "serie": "Sports Cars",
+        "fabricante": "Galoob",
+        "año": 1989,
+        "rareza": "Común",
+        "imagen": "images/microMachines/31-Photoroom.jpg"
+    },
+    {
+        "id": 32,
+        "nombre": "Sedan Turquesa",
+        "serie": "City Cars",
+        "fabricante": "Galoob",
+        "año": 1990,
+        "rareza": "Común",
+        "imagen": "images/microMachines/32-Photoroom.jpg"
+    },
+    {
+        "id": 33,
+        "nombre": "Pickup Convertible Plateado",
+        "serie": "Hot Rods",
+        "fabricante": "Galoob",
+        "año": 1991,
+        "rareza": "Raro",
+        "imagen": "images/microMachines/33-Photoroom.jpg"
+    },
+    {
+        "id": 34,
+        "nombre": "Pickup Racing #57 Naranja",
+        "serie": "NASCAR",
+        "fabricante": "Galoob",
+        "año": 1993,
+        "rareza": "Raro",
+        "imagen": "images/microMachines/34-Photoroom.jpg"
+    },
+    {
+        "id": 35,
+        "nombre": "SUV Emergency #115",
+        "serie": "Emergency",
+        "fabricante": "Galoob",
+        "año": 1991,
+        "rareza": "Común",
+        "imagen": "images/microMachines/35-Photoroom.jpg"
+    },
+    {
+        "id": 36,
+        "nombre": "Surf Shop Van Amarilla",
+        "serie": "Fun Series",
+        "fabricante": "Galoob",
+        "año": 1994,
+        "rareza": "Muy Raro",
+        "imagen": "images/microMachines/36-Photoroom.jpg"
+    },
+    {
+        "id": 37,
+        "nombre": "Convertible Verde Lima",
+        "serie": "Concept Cars",
+        "fabricante": "Galoob",
+        "año": 1995,
+        "rareza": "Ultra Raro",
+        "imagen": "images/microMachines/37-Photoroom.jpg"
+    },
+    {
+        "id": 38,
+        "nombre": "Pickup Castrol Rally",
+        "serie": "Rally",
+        "fabricante": "Hasbro",
+        "año": 2000,
+        "rareza": "Común",
+        "imagen": "images/microMachines/38-Photoroom.jpg"
+    },
+    {
+        "id": 39,
+        "nombre": "Formula 1 #101",
+        "serie": "Formula 1",
+        "fabricante": "Galoob",
+        "año": 1994,
+        "rareza": "Ultra Raro",
+        "imagen": "images/microMachines/39-Photoroom.jpg"
+    },
+    {
+        "id": 40,
+        "nombre": "Hot Rod Negro Classic",
+        "serie": "Hot Rods",
+        "fabricante": "Galoob",
+        "año": 1989,
+        "rareza": "Raro",
+        "imagen": "images/microMachines/40-Photoroom.jpg"
+    }
+]
